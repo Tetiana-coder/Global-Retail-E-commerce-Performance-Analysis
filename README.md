@@ -1,22 +1,113 @@
 # Global Retail & E-commerce Performance Analysis
 
-## 📌 Project Overview
-This project focuses on the comprehensive analysis of **1,248 orders across 45 countries**. The main objective was to evaluate regional sales performance, calculate profit margins, and identify key growth drivers to support strategic business decisions.
+## 🎯 Project Overview
+This project delivers a comprehensive end-to-end business analysis of a global retail dataset encompassing **1,248 orders across 45 countries**. Operating from the perspective of an internal Data Analyst, the objective was to look beyond raw numbers, evaluate regional sales performance, optimize corporate profit margins, and identify logistical bottlenecks to support long-term strategic decision-making.
 
-## 🛠️ Tech Stack & Tools
-* **Data Processing & Analytics:** SQL (BigQuery), Python (Pandas, NumPy)
-* **Data Visualization:** Tableau Public 
-* **Methodology:** ETL, Data Cleaning, Cohort Analysis
+---
 
-## 📊 Key Insights & Results
-* **Profit Optimization:** Identified 3 underperforming regions where profit margins dropped below 12%, proposing a restructuring of logistics costs.
-* **Geographical Expansion:** Uncovered top-5 emerging country markets showing a 25% MoM increase in transaction volume.
-* **Data Hygiene:** Cleaned and structured inconsistent regional naming conventions, reducing data anomalies by 98%.
+## 1. Executive Summary & North Star Metrics
 
-## 🚀 Live Dashboard & Links
-* 📊 [View Interactive Dashboard]((https://docs.google.com/spreadsheets/d/1btoatmm03iXYVBxqbBLuuqaxPbDBI-Cy2fXUHCLYxAc/edit?gid=1277069624#gid=1277069624))
-* 💼 [My LinkedIn Profile](https://www.linkedin.com/in/tetiana-sukhostavtseva-23694135a)
+A 60-second snapshot for executive leadership highlighting the scale, global reach, and overall financial health of the organization.
 
-## 📁 How to Run the Code
-1. Clone this repository: `git clone https://github.com/Tetiana-coder/repository-name.git`
-2. Open the Jupyter Notebook in [notebooks/analysis.ipynb](https://colab.research.google.com/drive/1PAc-bMBZKc2k84WvkD29N6_6uEfrlqbp?usp=sharing) to see the full data pipeline.
+| 💰 Total Revenue | 📈 Net Profit | 🌍 Geographic Reach | 📊 Net Profit Margin |
+| :--- | :--- | :--- | :--- |
+| **$1.6B** | **$474.1M** | **45 Countries** | **29.6%** |
+
+<br>
+
+<!-- 🖼️ PLACEHOLDER: MAIN KPI DASHBOARD -->
+<p align="center">
+  <img src="visualisations/1_north_star_metrics.png" alt="North Star Metrics Dashboard" width="90%">
+  <br>
+  <i>Figure 1: Executive KPI Dashboard – High-level financial performance metrics.</i>
+</p>
+
+---
+
+## 2. Profit Structure: Geographic Dominance of the European Market
+
+### 🗺️ Headline: Europe generates 95% of global net profit, driven by Southern Europe and key micro-markets
+While the company maintains a presence in 45 countries, profitability is heavily centralized. A deep dive into the geographical hierarchy reveals critical imbalances:
+*   **The Powerhouse:** **Europe** is the undisputed anchor of our business, securing **~95%** of the total net profit. 
+*   **Sub-Regional Leaders:** **Southern Europe** dominates regional performance with **$166.7M**, whereas **Western Asia** represents our most critical weak point, yielding only **$25.1M**.
+*   **Top Performing Nations:** **Andorra, Ukraine, and Malta** emerge as the most profitable countries, demonstrating highly efficient sales models.
+
+<br>
+
+<!-- 🖼️ PLACEHOLDER: GEOGRAPHIC PROFIT STRUCTURE (Tree Map / Sunburst) -->
+<p align="center">
+  <img src="visualisations/2_profit_geographic_structure.png" alt="Geographic Profit Structure" width="90%">
+  <br>
+  <i>Figure 2: Hierarchical Profit Distribution – Europe's dominant market share and regional breakdown.</i>
+</p>
+
+---
+
+## 3. Product Portfolio Analysis & Revenue Prioritization (ABC Analysis)
+
+### 💄 Headline: Cosmetics anchor corporate margins, while Fruits yield near-zero profitability
+An ABC analysis was conducted to segment products based on their revenue contribution and cross-referenced with actual profit margins to identify optimization areas:
+*   **Category A (The Margin Driver):** **Cosmetics** consistently generate the highest net profit across all European sub-regions. Despite having a lower gross sales volume than Office Supplies, superior margin structures make it our most resilient asset.
+*   **The Underperformer:** The **Fruits** category shows severe performance inefficiencies, pulling in **$4.9M in revenue but delivering a marginal $1.2M in profit**. 
+
+<br>
+
+<!-- 🖼️ PLACEHOLDER: ABC / PARETO ANALYSIS CHART -->
+<p align="center">
+  <img src="visualisations/3_product_portfolio_pareto.png" alt="Pareto and ABC Analysis of Product Types" width="90%">
+  <br>
+  <i>Figure 3: Analytical Rigor Matrix – Product revenue vs. profitability mapping for strategic portfolio decisions.</i>
+</p>
+
+---
+
+## 4. Supply Chain & Logistics Efficiency (Lead Time)
+
+### 📦 Headline: Delivery speed does not drive order value; Northern Europe leads in shipping velocity
+We analyzed operational supply chain data to test the hypothesis that faster delivery times actively generate higher order values and profit:
+*   **The Myth Busted:** A scatter plot analysis debits the assumption that delivery velocity correlates with profit. High-margin orders (exceeding **$1.5M**) occur uniformly across both immediate shipping windows (0–5 days) and long-tail timelines (45–50 days).
+*   **Regional Transit Benchmarks:** Average global delivery time sits at 25 days. **Northern Europe** runs the most efficient operation with an average lead time of **23 days**, while **Eastern Europe** lags behind as the slowest sub-region at **27 days**.
+
+<br>
+
+<!-- 🖼️ PLACEHOLDER: LOGISTICS SCATTER / BOX PLOT -->
+<p align="center">
+  <img src="visualisations/4_logistics_lead_time.png" alt="Logistics Lead Time and Profitability Analysis" width="90%">
+  <br>
+  <i>Figure 4: Supply Chain Analysis – Lead time distribution by region and correlation with profitability.</i>
+</p>
+
+---
+
+## 5. Sales Dynamics & Historical Performance Trends
+
+### 📉 Headline: Consistent seasonal surges in Q4 contrast with post-2012 profit volatility
+A longitudinal timeline analysis highlights distinct historical phases and reliable annual demand spikes:
+*   **The Volatility Shift:** Profit structures remained highly stable up until 2012, after which the business experienced increased revenue volatility and shifting regional demand.
+*   **Predictable Seasonality:** Historical data points to undeniable seasonal trends. **September** and **December** represent peak performance months annually, driven by retail cycles and cyclical purchasing behaviors.
+
+<br>
+
+<!-- 🖼️ PLACEHOLDER: LINE CHART DYNAMICS -->
+<p align="center">
+  <img src="visualisations/5_sales_historical_trends.png" alt="Sales and Profit Dynamics Over Time" width="90%">
+  <br>
+  <i>Figure 5: Clean Line Chart – Historical profit trends and monthly seasonality indicators.</i>
+</p>
+
+---
+
+## 🚀 Strategic Business Recommendations
+
+1.  **Portfolio Restructuring (Fruits Category):** Address the low-margin "Fruits" line. The company should either re-negotiate procurement costs, radically optimize transport overhead for perishables, or reallocate storage space to higher-margin categories.
+2.  **Scale Micro-Market Success Models:** Investigate the exact drivers behind the abnormally high profitability per unit in **Andorra and Malta**. Document local marketing and pricing strategies, and pilot them in larger, underperforming European countries.
+3.  **Logistics Investment Redirection:** Since accelerated delivery speed does not yield a higher average transaction value, leadership should halt expensive "speed optimization" initiatives. Instead, focus supply chain capital on **reducing fixed transportation and freight overhead** to protect net margins.
+
+---
+
+## 🛠️ Technical Stack & Methodology
+
+To ensure clean data hygiene and analytical accuracy, a decoupled processing approach was utilized:
+*   **Data Processing & Transformation:** **Python (Pandas)** – Employed for advanced data cleaning, structural data type formatting, handling missing values, and mathematical formulations (such as cumulative percentages for Pareto tracking).
+*   **Business Logic & Analysis:** **Google Sheets** – Used for data aggregation, executing ABC segmentation, and conducting core regional statistical benchmarks.
+*   **Visual Analytics & Dashboarding:** **Google Sheets** – Designed a cohesive corporate dashboard and generated clean, minimalist stakeholder charts with removed grid-line clutter to focus strictly on data insights.
