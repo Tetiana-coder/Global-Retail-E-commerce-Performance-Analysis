@@ -10,12 +10,6 @@ This project delivers a comprehensive end-to-end business analysis of a global r
 * **Data Transformation & Code:** [Google Colab Notebook](https://colab.research.google.com/drive/1PAc-bMBZKc2k84WvkD29N6_6uEfrlqbp?usp=sharing)
 
 ---
-# Global Retail & E-commerce Performance Analysis
-
-## 🎯 Project Overview
-This project delivers a comprehensive end-to-end business analysis of a global retail dataset encompassing **1,330 orders across 45 countries**. Operating from the perspective of an internal Data Analyst, the objective was to look beyond raw numbers, evaluate regional sales performance, optimize corporate profit margins, and identify logistical bottlenecks to support long-term strategic decision-making.
-
----
 
 ## 1. Executive Summary & North Star Metrics
 
