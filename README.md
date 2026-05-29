@@ -5,6 +5,11 @@ This project delivers a comprehensive end-to-end business analysis of a global r
 
 ---
 
+## 🔗 Project Resources
+* **Data Analysis & Dashboards:** [Google Sheets Spreadsheet](https://docs.google.com/spreadsheets/d/1btoatmm03iXYVBxqbBLuuqaxPbDBI-Cy2fXUHCLYxAc/edit?usp=sharing)
+* **Data Transformation & Code:** [Google Colab Notebook](https://colab.research.google.com/drive/1PAc-bMBZKc2k84WvkD29N6_6uEfrlqbp?usp=sharing)
+
+---
 # Global Retail & E-commerce Performance Analysis
 
 ## 🎯 Project Overview
