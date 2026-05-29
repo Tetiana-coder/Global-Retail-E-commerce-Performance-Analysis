@@ -19,4 +19,4 @@ This project focuses on the comprehensive analysis of **1,248 orders across 45 c
 
 ## 📁 How to Run the Code
 1. Clone this repository: `git clone https://github.com/Tetiana-coder/repository-name.git`
-2. Open the Jupyter Notebook in `notebooks/analysis.ipynb` to see the full data pipeline.
+2. Open the Jupyter Notebook in [notebooks/analysis.ipynb](https://colab.research.google.com/drive/1PAc-bMBZKc2k84WvkD29N6_6uEfrlqbp?usp=sharing) to see the full data pipeline.
