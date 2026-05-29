@@ -5,21 +5,28 @@ This project delivers a comprehensive end-to-end business analysis of a global r
 
 ---
 
+# Global Retail & E-commerce Performance Analysis
+
+## 🎯 Project Overview
+This project delivers a comprehensive end-to-end business analysis of a global retail dataset encompassing **1,330 orders across 45 countries**. Operating from the perspective of an internal Data Analyst, the objective was to look beyond raw numbers, evaluate regional sales performance, optimize corporate profit margins, and identify logistical bottlenecks to support long-term strategic decision-making.
+
+---
+
 ## 1. Executive Summary & North Star Metrics
 
-A 60-second snapshot for executive leadership highlighting the scale, global reach, and overall financial health of the organization.
+A 60-second snapshot for executive leadership highlighting the operational scale, global reach, and overall financial health of the organization.
 
-| 💰 Total Revenue | 📈 Net Profit | 🌍 Geographic Reach | 📊 Net Profit Margin |
-| :--- | :--- | :--- | :--- |
-| **$1.6B** | **$474.1M** | **45 Countries** | **29.6%** |
+| 📦 Total Orders | 📈 Total Profit | 🌍 Countries | 💰 Avg Order Value | 📊 Profit Margin | 🧺 Avg Units Sold |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1,330** | **$501,829,110** | **45** | **$1,281,621.25** | **29.44%** | **4,952** |
 
 <br>
 
-<!-- 🖼️ PLACEHOLDER: MAIN KPI DASHBOARD -->
+<!-- 🖼️ MAIN KPI DASHBOARD DISPLAY -->
 <p align="center">
   <img src="visualisations/1_north_star_metrics.png" alt="North Star Metrics Dashboard" width="90%">
   <br>
-  <i>Figure 1: Executive KPI Dashboard – High-level financial performance metrics.</i>
+  <i>Figure 1: Executive KPI Dashboard – High-level financial and operational performance metrics.</i>
 </p>
 
 ---
