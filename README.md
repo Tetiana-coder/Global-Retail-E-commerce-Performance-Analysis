@@ -81,18 +81,19 @@ We analyzed operational supply chain data to test the hypothesis that faster del
 
 ## 5. Sales Dynamics & Historical Performance Trends
 
-### 📉 Headline: Consistent seasonal surges in Q4 contrast with post-2012 profit volatility
-A longitudinal timeline analysis highlights distinct historical phases and reliable annual demand spikes:
-*   **The Volatility Shift:** Profit structures remained highly stable up until 2012, after which the business experienced increased revenue volatility and shifting regional demand.
-*   **Predictable Seasonality:** Historical data points to undeniable seasonal trends. **September** and **December** represent peak performance months annually, driven by retail cycles and cyclical purchasing behaviors.
+### 📉 Headline: Strategic peak in 2012 followed by long-term profit contraction and high January seasonality
+
+A longitudinal timeline analysis highlights distinct historical phases and reliable annual demand spikes that challenge standard retail assumptions:
+*   **The 2012 Peak & Volatility:** Corporate net profit reached its historical maximum in **2012 (exceeding $80M)**. However, 2013 marked a severe contraction down to ~$51M. Despite a temporary recovery in 2014, the business has faced a steady, multi-year decline in profitability leading into 2017.
+*   **Subverted Seasonality:** Unlike typical retail models that rely on Q4 holiday surges, our data reveals that **January** is the most profitable month of the year (reaching $50M), closely followed by strong performance waves in **March, June, and July**. Meanwhile, autumn and late holiday quarters show lower capital efficiency.
 
 <br>
 
-<!-- 🖼️ PLACEHOLDER: LINE CHART DYNAMICS -->
+<!-- 🖼️ AUTOMATIC PORTFOLIO DISPLAY -->
 <p align="center">
   <img src="visualisations/5_sales_historical_trends.png" alt="Sales and Profit Dynamics Over Time" width="90%">
   <br>
-  <i>Figure 5: Clean Line Chart – Historical profit trends and monthly seasonality indicators.</i>
+  <i>Figure 5: Advanced Time-Series Dashboard – Yearly macro trends, monthly seasonality distributions, and quarterly financial comparisons.</i>
 </p>
 
 ---
